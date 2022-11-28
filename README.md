@@ -1,1 +1,2 @@
 # Luqmanhussaini.project-new
+all
