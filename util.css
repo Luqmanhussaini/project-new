@@ -1,0 +1,66 @@
+.disp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    display: flex;
+}
+.top{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 25px 25px 0px 10px;
+    margin: 0 20px;
+}
+.item{
+    font-size: medium;
+
+    padding: 10px 35px 0px 10px;
+}
+#this{
+    padding: 15px 10px 0px;
+    margin: 0px;
+}
+#this:hover{
+    width: 80px;
+}
+.search{
+    display: flex;
+    margin: 16px 0px 10px 600px;
+    flex-direction: row;
+}
+#here2{
+    height: 22px;
+    width: 50px;
+    margin: 0px 10px;
+}
+.search input{
+    height: 20px;
+    width: 20vw;
+    border-radius: 5px;
+
+}
+.card{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.cards{
+/*    background-color: #0e3ca8ab;*/
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.lines{
+    text-align: center;
+}
+.img{
+    margin: 0px 30vw;
+}
+.alld{
+    overflow: hidden;
+    background-color: beige;
+    padding: 10px 0px 0px 20px;
+}

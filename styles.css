@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-bg-color:#c2d2be;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    color: black;
+    background-color: var(--main-bg-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+}
+header{
+    background-color: var(--main-bg-color);
+    overflow: hidden;
+
+}
+.container{
+    overflow: hidden;
+    min-height: calc(100vh - 10vh - 60px);
+}
+
+.c-item{
+    width: 150px;
+}
